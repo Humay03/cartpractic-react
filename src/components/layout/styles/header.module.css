@@ -1,0 +1,40 @@
+.header {
+    height: 60px;
+    padding-inline: 16px;
+    border-bottom: 1px solid #ccc;
+ 
+    &>div:first-child {
+       display: flex;
+       align-items: center;
+       background-color: #fafafa;
+       border-radius: 4px;
+ 
+       &>span {
+          padding-left: 16px;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          color: #6e7990;
+ 
+       }
+ 
+       &>input {
+          padding: 13px 16px;
+          color: #6e7990;
+       }
+    }
+ 
+    &>div {
+       &>ul {
+          &>li {
+             &>button {
+                all: unset;
+             }
+          }
+       }
+    }
+ }
+ 
+ input {
+    all: unset;
+ }

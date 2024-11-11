@@ -1,0 +1,30 @@
+.section {
+    background-color: white;
+    border-radius: 8px;
+
+    &>div:first-of-type {
+        border-bottom: 1px solid #ccc;
+    }
+
+    &>* {
+        padding: 16px;
+    }
+
+    .viewProduct {
+        &>button {
+            all: unset;
+            padding: 8px 24px;
+            background-color: #0dd6b8;
+            color: white;
+            border-radius: 6px;
+            font-size: 17px;
+            transition-duration: 200ms;
+            transition-property: backround-color, color;
+
+            &:hover {
+                background-color: #0aab93;
+                color: white;
+            }
+        }
+    }
+}

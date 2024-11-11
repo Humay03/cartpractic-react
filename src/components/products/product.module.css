@@ -1,0 +1,107 @@
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+
+
+}
+
+.productItem {
+    height: 200px;
+    column-gap: 16px;
+
+    &:hover {
+        .productImage {
+            .productHover {
+                opacity: 1;
+            }
+        }
+    }
+
+
+    img {
+        height: 200px;
+    }
+
+    &>div {
+        &>h5 {
+            font-size: 20px;
+            font-weight: 400;
+            margin-bottom: 5px;
+        }
+
+        &>p {
+            margin-bottom: 5px;
+            color: #0dd6b8;
+        }
+
+        &>div {
+            margin-bottom: 8px;
+
+            &:nth-of-type(2) {
+                &>span:not(:only-child) {
+                    &:first-of-type {
+                        text-decoration: line-through;
+                        padding-right: 4px;
+                        color: #6e7990;
+                        font-weight: 200;
+
+                    }
+                }
+            }
+
+            &>span {
+                font-weight: 500;
+            }
+        }
+
+        &>div {
+
+            &>button:first-child {
+                all: unset;
+                background-color: #cff7f1;
+                padding: 4px 6px;
+                border-radius: 4px;
+            }
+
+            &>button {
+                all: unset;
+                background-color: #fbdddd;
+                margin-left: 8px;
+                padding: 4px 6px;
+                border-radius: 4px;
+            }
+        }
+    }
+
+    .productImage {
+        position: relative;
+
+        .productHover {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, .7);
+            height: 200px;
+            opacity: 0;
+            transition-duration: 250ms;
+            transition-property: opacity;
+
+            &>button {
+                background-color: white;
+                color: #0dd6b8;
+                padding: 6px 12px;
+                transition-duration: 200ms;
+                transition-property: backround-color, color;
+
+                &:hover {
+                    background-color: #0dd6b8;
+                    color: white;
+                }
+            }
+        }
+    }
+
+}

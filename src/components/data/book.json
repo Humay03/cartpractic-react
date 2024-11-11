@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Reading on the World",
+        "author": "Jhone Steben",
+        "price": 100,
+        "discount_price": 89,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/01.jpg"
+    },
+    {
+        "id": 2,
+        "name": "The Catcher in the Rye",
+        "author": "Fritz Wold",
+        "price": 120,
+        "discount_price": 99,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/02.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Little Black Book",
+        "author": "John Klok",
+        "price": 150,
+        "discount_price": 129,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/03.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Take On The Risk",
+        "author": "George Strong",
+        "price": 120,
+        "discount_price": 100,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/04.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Absteact On Background",
+        "author": "JIchae Semos",
+        "price": 105,
+        "discount_price": 99,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/05.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Find The Wave Book",
+        "author": "Fidel Martin",
+        "price": 110,
+        "discount_price": 100,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/06.jpg"
+    },
+    {
+        "id": 7,
+        "name": "See the More Story",
+        "author": "Jules Boutin",
+        "price": 89,
+        "discount_price": 79,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/07.jpg"
+    },
+    {
+        "id": 8,
+        "name": "The Wikde Book",
+        "author": "Kusti Franti",
+        "price": 99,
+        "discount_price": 89,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/08.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Conversion Erik Routley",
+        "author": "Argele Intili",
+        "price":100 ,
+        "discount_price":79,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/09.jpg"
+    },
+    {
+        "id": 10,
+        "name": "The Leo Dominica",
+        "author": "Henry Jurk",
+        "price":120,
+        "discount_price":99 ,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/10.jpg"
+    },
+    {
+        "id": 11,
+        "name": "By The Editbeth Jat",
+        "author": "David King",
+        "price": 160,
+        "discount_price":149,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/11.jpg"
+    },
+    {
+        "id": 12,
+        "name": "The Crucial Decade",
+        "author": "Attilio Marzi",
+        "price":99,
+        "discount_price":89,
+        "image": "https://templates.iqonic.design/booksto-dist/html/assets/images/browse-books/12.jpg"
+    }
+]
